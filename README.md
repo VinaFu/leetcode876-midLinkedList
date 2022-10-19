@@ -13,5 +13,9 @@
                 fast = fast.next.next
             return slow
             
-            
+            1   2   3   4   5   6
+           s/f
+                s   f
+                    s       f
+                        s           (f=none)
             fast run twice as slow, when fast reach the end. The slow just get to the middle
